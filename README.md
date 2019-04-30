@@ -5,6 +5,27 @@
 python3.6 、 Django1.8.2<br>
 安装python3后<br>
 安装虚拟环境参考博客(https://blog.csdn.net/da953824/article/details/87946504)<br>
+下面博客的内容：
+安装虚拟环境(须在联网状态下)
+$ sudo pip install virtualenv
+$ sudo pip install virtualenvwrapper
+安装完虚拟环境后，如果提示找不到mkvirtualenv命令，须配置环境变量：
+
+1、创建目录用来存放虚拟环境<br>
+mkdir $HOME/.virtualenvs 
+
+2、打开~/.bashrc文件，并添加如下：<br>
+export WORKON_HOME=$HOME/.virtualenvs <br>
+source /usr/local/bin/virtualenvwrapper.sh
+
+3、运行<br>
+source ~/.bashrc
+
+4 创建虚拟环境(ubuntu里须在联网状态下)<br>
+$ mkvirtualenv django_py3 -p python3<br>
+进入虚拟环境
+
+$ workon django_py3
 进入项目目录  req.txt所在目录<br>
 安装相应python包
 pip install -r req.txt
