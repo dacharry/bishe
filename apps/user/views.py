@@ -300,7 +300,7 @@ class AddressView(LoginRequiredMixin, View):
             def_addr = Address.objects.get(user=user,is_default=True)
         except Address.DoesNotExist:
             # 不存在默认收货地址
-            address = None
+            def_addr = None
         # address = Address.objects.get_default_address(user)
 
         # 使用模板
