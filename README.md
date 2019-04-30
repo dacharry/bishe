@@ -5,10 +5,10 @@
 python3.6 、 Django1.8.2<br>
 安装python3后<br>
 安装虚拟环境参考博客(https://blog.csdn.net/da953824/article/details/87946504)<br>
-下面博客的内容：
-安装虚拟环境(须在联网状态下)
-$ sudo pip install virtualenv
-$ sudo pip install virtualenvwrapper
+下面博客的内容：<br>
+安装虚拟环境(须在联网状态下)<br>
+$ sudo pip install virtualenv<br>
+$ sudo pip install virtualenvwrapper<br>
 安装完虚拟环境后，如果提示找不到mkvirtualenv命令，须配置环境变量：
 
 1、创建目录用来存放虚拟环境<br>
