@@ -1,0 +1,51 @@
+[2019-04-30 20:50:02,241: INFO/MainProcess] Connected to redis://127.0.0.1:6379/8
+[2019-04-30 20:50:02,271: INFO/MainProcess] mingle: searching for neighbors
+[2019-04-30 20:50:03,912: INFO/MainProcess] mingle: all alone
+[2019-04-30 20:50:03,983: WARNING/MainProcess] /home/python/.virtualenvs/django_py3/lib/python3.5/site-packages/celery/fixups/django.py:200: UserWarning: Using settings.DEBUG leads to a memory leak, never use this setting in production environments!
+  warnings.warn('Using settings.DEBUG leads to a memory leak, never '
+
+[2019-04-30 20:50:03,986: INFO/MainProcess] w1@ubuntu ready.
+[2019-04-30 20:50:04,024: INFO/MainProcess] Received task: celery_tasks.tasks.send_register_active_email[11a9283a-5874-4051-8608-65b543f1b120]  
+[2019-04-30 20:50:04,048: INFO/MainProcess] Received task: celery_tasks.tasks.send_register_active_email[9718f77d-184c-4561-8648-e00e02629727]  
+[2019-04-30 20:50:04,050: INFO/MainProcess] Received task: celery_tasks.tasks.send_register_active_email[9bc2326d-a7e2-4513-8c95-2814111dcd15]  
+[2019-04-30 20:50:04,052: INFO/MainProcess] Received task: celery_tasks.tasks.send_register_active_email[8e1bb0cd-7d41-450d-8214-5d7ceedc3575]  
+[2019-04-30 20:50:04,054: INFO/MainProcess] Received task: celery_tasks.tasks.send_register_active_email[a370c407-d236-4c61-bec4-c72bfb135f60]  
+[2019-04-30 20:50:06,436: INFO/ForkPoolWorker-1] Task celery_tasks.tasks.send_register_active_email[11a9283a-5874-4051-8608-65b543f1b120] succeeded in 2.410560930999054s: None
+[2019-04-30 20:50:07,019: INFO/ForkPoolWorker-1] Task celery_tasks.tasks.send_register_active_email[9718f77d-184c-4561-8648-e00e02629727] succeeded in 0.5498917910008458s: None
+[2019-04-30 20:50:07,022: INFO/MainProcess] Received task: celery_tasks.tasks.send_register_active_email[11a48087-1754-48ac-b78d-e3d602255e67]  
+[2019-04-30 20:50:07,956: INFO/MainProcess] Received task: celery_tasks.tasks.send_register_active_email[6b50ab79-953c-4c05-bbc9-3176729b1cc9]  
+[2019-04-30 20:50:08,219: INFO/ForkPoolWorker-1] Task celery_tasks.tasks.send_register_active_email[9bc2326d-a7e2-4513-8c95-2814111dcd15] succeeded in 1.195983736000926s: None
+[2019-04-30 20:50:08,920: INFO/MainProcess] Received task: celery_tasks.tasks.send_register_active_email[8cec6bce-99bd-4952-ac39-40173e0e9919]  
+[2019-04-30 20:50:09,014: INFO/ForkPoolWorker-1] Task celery_tasks.tasks.send_register_active_email[8e1bb0cd-7d41-450d-8214-5d7ceedc3575] succeeded in 0.7928826459974516s: None
+[2019-04-30 20:50:09,961: INFO/MainProcess] Received task: celery_tasks.tasks.send_register_active_email[36809fed-9337-46bb-adcd-41d21bd68c18]  
+[2019-04-30 20:50:10,444: INFO/ForkPoolWorker-1] Task celery_tasks.tasks.send_register_active_email[a370c407-d236-4c61-bec4-c72bfb135f60] succeeded in 1.4284351769965724s: None
+[2019-04-30 20:50:11,199: INFO/ForkPoolWorker-1] Task celery_tasks.tasks.send_register_active_email[11a48087-1754-48ac-b78d-e3d602255e67] succeeded in 0.7426429180013656s: None
+[2019-04-30 20:50:11,203: INFO/MainProcess] Received task: celery_tasks.tasks.send_register_active_email[2db454ce-19ab-411e-b676-55f49ec265fc]  
+[2019-04-30 20:50:11,735: INFO/ForkPoolWorker-1] Task celery_tasks.tasks.send_register_active_email[6b50ab79-953c-4c05-bbc9-3176729b1cc9] succeeded in 0.520660301001044s: None
+[2019-04-30 20:50:11,804: INFO/MainProcess] Received task: celery_tasks.tasks.send_register_active_email[27e64d66-e5bc-4244-a330-fad9f1e62d7b]  
+[2019-04-30 20:50:11,960: INFO/MainProcess] Received task: celery_tasks.tasks.send_register_active_email[ca4ed5d7-3d90-48d0-8d84-7ac909aa2037]  
+[2019-04-30 20:50:12,691: INFO/ForkPoolWorker-1] Task celery_tasks.tasks.send_register_active_email[8cec6bce-99bd-4952-ac39-40173e0e9919] succeeded in 0.8761885860003531s: None
+[2019-04-30 20:50:13,862: INFO/ForkPoolWorker-1] Task celery_tasks.tasks.send_register_active_email[36809fed-9337-46bb-adcd-41d21bd68c18] succeeded in 1.163917436999327s: None
+[2019-04-30 20:50:13,881: INFO/MainProcess] Received task: celery_tasks.tasks.send_register_active_email[60d06d5a-a871-4b35-bdc7-a4d403c27b27]  
+[2019-04-30 20:50:13,920: INFO/MainProcess] Received task: celery_tasks.tasks.send_register_active_email[541f32fe-c40c-4d91-a07a-e788882b53a6]  
+[2019-04-30 20:50:14,555: INFO/ForkPoolWorker-1] Task celery_tasks.tasks.send_register_active_email[2db454ce-19ab-411e-b676-55f49ec265fc] succeeded in 0.6724577169989061s: None
+[2019-04-30 20:50:15,117: INFO/ForkPoolWorker-1] Task celery_tasks.tasks.send_register_active_email[27e64d66-e5bc-4244-a330-fad9f1e62d7b] succeeded in 0.5591067519999342s: None
+[2019-04-30 20:50:15,120: INFO/MainProcess] Received task: celery_tasks.tasks.send_register_active_email[1e1a862c-4be3-4e08-a939-abddf84d2ef8]  
+[2019-04-30 20:50:15,929: INFO/ForkPoolWorker-1] Task celery_tasks.tasks.send_register_active_email[ca4ed5d7-3d90-48d0-8d84-7ac909aa2037] succeeded in 0.8080481120014156s: None
+[2019-04-30 20:50:15,955: INFO/MainProcess] Received task: celery_tasks.tasks.send_register_active_email[7645fa2b-dd14-4de1-9b03-17519a7ee1ee]  
+[2019-04-30 20:50:15,978: INFO/MainProcess] Received task: celery_tasks.tasks.send_register_active_email[42e1d2d2-b9d0-4bbb-b4e6-4c7cbed66edc]  
+[2019-04-30 20:50:16,692: INFO/ForkPoolWorker-1] Task celery_tasks.tasks.send_register_active_email[60d06d5a-a871-4b35-bdc7-a4d403c27b27] succeeded in 0.7337000580009772s: None
+[2019-04-30 20:50:17,384: INFO/ForkPoolWorker-1] Task celery_tasks.tasks.send_register_active_email[541f32fe-c40c-4d91-a07a-e788882b53a6] succeeded in 0.6904222610028228s: None
+[2019-04-30 20:50:17,412: INFO/MainProcess] Received task: celery_tasks.tasks.send_register_active_email[1f9f2481-038d-4617-be64-e649920d9538]  
+[2019-04-30 20:50:17,979: INFO/ForkPoolWorker-1] Task celery_tasks.tasks.send_register_active_email[1e1a862c-4be3-4e08-a939-abddf84d2ef8] succeeded in 0.5663919690014154s: None
+[2019-04-30 20:50:18,006: INFO/MainProcess] Received task: celery_tasks.tasks.send_register_active_email[be1df8b6-db04-4961-b1b7-9a226cbd2788]  
+[2019-04-30 20:50:18,874: INFO/ForkPoolWorker-1] Task celery_tasks.tasks.send_register_active_email[7645fa2b-dd14-4de1-9b03-17519a7ee1ee] succeeded in 0.8581835199984198s: None
+[2019-04-30 20:50:18,877: INFO/MainProcess] Received task: celery_tasks.tasks.send_register_active_email[8839b999-39db-4bfa-83a9-510aaf37d50f]  
+[2019-04-30 20:50:18,923: INFO/MainProcess] Received task: celery_tasks.tasks.send_register_active_email[5e796a86-f1fc-489b-a438-24674768792a]  
+[2019-04-30 20:50:20,095: INFO/ForkPoolWorker-1] Task celery_tasks.tasks.send_register_active_email[42e1d2d2-b9d0-4bbb-b4e6-4c7cbed66edc] succeeded in 1.2170397949994367s: None
+[2019-04-30 20:50:20,820: INFO/ForkPoolWorker-1] Task celery_tasks.tasks.send_register_active_email[1f9f2481-038d-4617-be64-e649920d9538] succeeded in 0.7224806540034479s: None
+[2019-04-30 20:50:20,823: INFO/MainProcess] Received task: celery_tasks.tasks.send_register_active_email[ec13ccbf-c069-469e-97d5-47884b5d1946]  
+[2019-04-30 20:50:21,381: INFO/ForkPoolWorker-1] Task celery_tasks.tasks.send_register_active_email[be1df8b6-db04-4961-b1b7-9a226cbd2788] succeeded in 0.5575648800004274s: None
+[2019-04-30 20:50:22,126: INFO/ForkPoolWorker-1] Task celery_tasks.tasks.send_register_active_email[8839b999-39db-4bfa-83a9-510aaf37d50f] succeeded in 0.7403459060005844s: None
+[2019-04-30 20:50:22,764: INFO/ForkPoolWorker-1] Task celery_tasks.tasks.send_register_active_email[5e796a86-f1fc-489b-a438-24674768792a] succeeded in 0.6284924859974126s: None
+[2019-04-30 20:50:23,575: INFO/ForkPoolWorker-1] Task celery_tasks.tasks.send_register_active_email[ec13ccbf-c069-469e-97d5-47884b5d1946] succeeded in 0.8043031239976699s: None
